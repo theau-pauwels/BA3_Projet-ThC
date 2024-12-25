@@ -126,7 +126,7 @@ pdfauthor = {Mathys Rogge & Théau Pauwels}
         \subsection{Graphique Python}
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width=10cm]{images/1.1.1 - PWM btw sin and tri.png}
+                \includegraphics[width=10cm]{code-projet-python/1.1.1 - PWM btw sin and tri.png}
                 \caption{Superposition du signal triangle sur le sinus et modulation PWM correspondante}
                 \label{fig:pwm_modulation}
             \end{figure}
@@ -139,7 +139,7 @@ pdfauthor = {Mathys Rogge & Théau Pauwels}
         \subsection{PWM avec $f_{triangle}=20 [kHz]$ et $f_{sinus}=1 [kHz]$}
         \begin{figure}[h!]
                 \centering
-                \includegraphics[width=10cm]{images/1.1.4 - PWM btw sin and tri.png}
+                \includegraphics[width=10cm]{code-projet-python/1.1.4 - PWM btw sin and tri.png}
                 \caption{Modulation PWM correspondant à la superposition de l'onde triangulaire et du signal sinusoïdale pour une fréquence d’échantillonnage de $1 [MHz]$}
                 \label{fig:echantillon_1MHz}
             \end{figure}
@@ -147,7 +147,7 @@ pdfauthor = {Mathys Rogge & Théau Pauwels}
         \subsection{Diminution de la fréquence échantillonnage}
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width=10cm]{images/1.1.5 - PWM btw sin and tri.png}
+                \includegraphics[width=10cm]{code-projet-python/1.1.5 - PWM btw sin and tri.png}
                 \caption{Modulation PWM pour une fréquence d’échantillonnage divisée par 2, 3 et 10}
                 \label{fig:comp_freq_echant}
             \end{figure}
@@ -161,7 +161,7 @@ pdfauthor = {Mathys Rogge & Théau Pauwels}
         \subsection{Signal PWM amplifié}
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width = 10cm]{images/1.3.1 - ampl_PWM btw cos and tri.png}
+                \includegraphics[width = 10cm]{code-projet-python/1.3.1 - ampl_PWM btw cos and tri.png}
                 \caption{Amplification du signal PWM par un facteur 100}
                 \label{fig:PWM_amp}
             \end{figure}
@@ -169,15 +169,15 @@ pdfauthor = {Mathys Rogge & Théau Pauwels}
         \subsection{Visualisation de \texttt{sc.freqz()} dans Python}
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width = 10cm]{images/1.3.2 - Fourier transform of ampl_PWM.png}
+                \includegraphics[width = 10cm]{code-projet-python/1.3.2 - Fourier transform of ampl_PWM.png}
                 \caption{Transformée de Fourier du signal PWM après amplification}
                 \label{fig:fourier_PWM_amp}
                 
-                \includegraphics[width = 8cm]{images/1.3.2 - Fourier transform of ampl_PWM centered on 1000 Hz.png}
+                \includegraphics[width = 8cm]{code-projet-python/1.3.2 - Fourier transform of ampl_PWM centered on 1000 Hz.png}
                 \caption{Transformée de Fourier du signal PWM après amplification, centrée en 1 kHz}
                 \label{fig:fourier_PWM_amp_1kHz}
                 
-                \includegraphics[width = 8cm]{images/1.3.2 - Fourier transform of ampl_PWM centered on 20 000 Hz.png}
+                \includegraphics[width = 8cm]{code-projet-python/1.3.2 - Fourier transform of ampl_PWM centered on 20 000 Hz.png}
                 \caption{Transformée de Fourier du signal PWM après amplification, centrée en 20 kHz}
                 \label{fig:fourier_PWM_amp_20kHz}
             \end{figure}
@@ -208,10 +208,10 @@ pdfauthor = {Mathys Rogge & Théau Pauwels}
             Filtre d'ordre 30 avec comme fréquence de coupure $\omega = 0.1615$
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width = 8cm]{images/2.0.0 - zplane de Butterworth.png}
+                \includegraphics[width = 8cm]{code-projet-python/2.0.0 - zplane de Butterworth.png}
                 \caption{Pôles de l'approximation de Butterworth du filtre}
                 \label{fig:zplane-Butterworth}
-                \includegraphics[width = 8cm]{images/2.0.0 - Réponse en fréquence Butterworth.png}
+                \includegraphics[width = 8cm]{code-projet-python/2.0.0 - Réponse en fréquence Butterworth.png}
                 \caption{Réponse en fréquence de l'approximation de Butterworth}
                 \label{fig:repfreq-Butterworth}
             \end{figure}
@@ -222,10 +222,10 @@ pdfauthor = {Mathys Rogge & Théau Pauwels}
             Filtre d'ordre 10 avec comme fréquence de coupure $\omega = 0.1592$
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width = 8cm]{images/2.0.0 - zplane de Chebychev 1.png}
+                \includegraphics[width = 8cm]{code-projet-python/2.0.0 - zplane de Chebychev 1.png}
                 \caption{Pôles de l'approximation de Chebychev 1 du filtre}
                 \label{fig:zplane-Chebychev1}
-                \includegraphics[width = 8cm]{images/2.0.0 - Réponse en fréquence Chebychev 1.png}
+                \includegraphics[width = 8cm]{code-projet-python/2.0.0 - Réponse en fréquence Chebychev 1.png}
                 \caption{Réponse en fréquence de l'approximation de Chebychev 1}
                 \label{fig:repfreq-Chebychev1}
             \end{figure}
@@ -236,10 +236,10 @@ pdfauthor = {Mathys Rogge & Théau Pauwels}
             Filtre d'ordre 5 avec comme fréquence de coupure $\omega = 0.1592$ et comme fonction de transfert $H_{Cauer}(p) = \frac{0.047p^4 + 0.22p^2 + 0.23}{p^5 + 0.92p^4 + 1.85p^3 + 1.13p^2 + 0.79p + 0.23}$
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width = 8cm]{images/2.0.0 - zplane de Cauer.png}
+                \includegraphics[width = 8cm]{code-projet-python/2.0.0 - zplane de Cauer.png}
                 \caption{Pôles et zéros de l'approximation de Cauer du filtre}
                 \label{fig:zplane-Cauer}
-                \includegraphics[width = 8cm]{images/2.0.0 - Réponse en fréquence Cauer.png}
+                \includegraphics[width = 8cm]{code-projet-python/2.0.0 - Réponse en fréquence Cauer.png}
                 \caption{Réponse en fréquence de l'approximation de Cauer}
                 \label{fig:repfreq-Cauer}
             \end{figure}
@@ -305,7 +305,7 @@ pdfauthor = {Mathys Rogge & Théau Pauwels}
         \subsection{Cellule 1}
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width = 8cm]{images/2.0.4 - Filtre 3.png}
+                \includegraphics[width = 8cm]{code-projet-python/2.0.4 - Filtre 3.png}
                 \caption{Réponse en fréquence de la première cellule (filtre n° 3)}
                 \label{fig:repfreq-filtre-3}
             \end{figure}
@@ -313,7 +313,7 @@ pdfauthor = {Mathys Rogge & Théau Pauwels}
         \subsection{Cellule 2}
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width = 8cm]{images/2.0.4 - Filtre 2.png}
+                \includegraphics[width = 8cm]{code-projet-python/2.0.4 - Filtre 2.png}
                 \caption{Réponse en fréquence de la deuxième cellule (filtre n° 2)}
                 \label{fig:repfreq-filtre-2}
             \end{figure}
@@ -323,7 +323,7 @@ pdfauthor = {Mathys Rogge & Théau Pauwels}
         \subsection{Cellule 3}
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width = 8cm]{images/2.0.4 - Filtre 1.png}
+                \includegraphics[width = 8cm]{code-projet-python/2.0.4 - Filtre 1.png}
                 \caption{Réponse en fréquence de la troisième cellule (filtre n° 1)}
                 \label{fig:repfreq-filtre-1}
             \end{figure}
@@ -331,7 +331,7 @@ pdfauthor = {Mathys Rogge & Théau Pauwels}
         \subsection{Réponse globale}
             \begin{figure}[h!]
                 \centering
-                \includegraphics[width = 8cm]{images/2.0.4 - Cauer.png}
+                \includegraphics[width = 8cm]{code-projet-python/2.0.4 - Cauer.png}
                 \caption{Réponse en fréquence des cellules mises en cascade}
                 \label{fig:repfreq-filtre-1}
             \end{figure}
